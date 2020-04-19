@@ -1,0 +1,180 @@
+/*START OF DESIGN-BY CODE*/
+#design-by{
+  position: relative;
+  top: -200px;
+}
+#design-by .design-container{
+  position: relative;
+  background: white;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#design-by .design-container .bg-container{
+  position: relative;
+  background: #6254ED; /*purple*/
+  overflow: hidden;
+  padding: 45px;
+}
+#design-by .design-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#design-by .design-container .bg-image{
+  position: absolute;
+  width: 600px;
+  z-index: 1;
+  opacity: 0.3;
+  right: -200px;
+  top: -100px;
+}
+#design-by .design-container .info-section{
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+#design-by .design-container .info-section h5{
+  color: #f98f08; /* dark orange*/
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+#design-by .design-container .info-section h3{
+  color: white;
+  font-size: 2.7rem;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+#design-by .design-container .info-section .info-list{
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 2;
+}
+#design-by .design-container .info-section .info-list li{
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 14.5px;
+  vertical-align: top;
+}
+#design-by .design-container .info-section .info-list .circle{
+  background: #f98f08; /* dark orange*/
+  display: inline-block;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+  position: relative;
+  top: 7px;
+  right: 36px;
+}
+#design-by .design-container .info-section .info-list .circle .fas{
+  position: absolute;
+  top: 6px;
+  left: 5px;
+}
+#design-by .design-container .info-section .white-btn{
+  text-decoration: none;
+  background: white;
+  border-radius: 50px;
+  padding: 20px 65px;
+  text-transform: uppercase;
+  color: #6254ED; /*purple*/
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+#design-by .design-container .info-section .white-btn:hover{
+  color: #f98f08; /* dark orange*/
+  opacity: 0.7;
+}
+
+#design-by .design-container .icons-section{
+  background: white;
+  width: 60%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+#design-by .design-container .icons-section .refresh-circle{
+  position: absolute;
+  left: 44%;
+  top: 40%;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+}
+#design-by .design-container .icons-section .refresh-circle .fas{
+  position: relative;
+  color: #f98f08; /* dark orange*/
+  font-size: 2.5rem;
+  top: 20px;
+  left: 20px;
+}
+#design-by .design-container .icons-section .icon-box{
+  width: 50%;
+  height: 246px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border: 1px solid rgba(181, 184, 193, 0.2);
+  color:  #6254ED; /*purple*/
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+#design-by .design-container .icons-section .icon-box .fas{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 61px;
+}
+
+/*start of media queries*/
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+  #design-by .design-container .icons-section .refresh-circle{
+    left: 45%;
+  }
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+  #design-by .design-container .icons-section .refresh-circle{
+    left: 44%;
+  }
+}
+
+@media only screen and (max-width: 833px) {
+  #design-by .design-container .icons-section .refresh-circle{
+    left: 41%;
+  }
+}
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+  #design-by .design-container .bg-container {
+    padding: 20px;
+  }
+  #design-by .design-container .info-section{
+    width: 100%;
+  }
+  #design-by .design-container .info-section .info-list li {
+    line-height: 2;
+  }
+  #design-by .design-container .icons-section{
+    width: 100%;
+  }
+  #design-by .design-container .icons-section .refresh-circle{
+    display: none;
+  }
+}
+/*end of media queries*/
+/*END OF DESIGN-BY CODE*/

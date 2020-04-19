@@ -1,0 +1,59 @@
+@import "reset";
+@import "header.css";
+@import "top-jumbo.css";
+@import "design-by.css";
+@import "color-collection.css";
+@import "blue-print.css";
+@import "latest.css";
+@import "footer.css";
+/*
+COLOR PALETTE FOR PAGE:
+LIGHTBLUE = #6066f2
+LIGHTORANGE = #fea83b
+OFFWHITE = #e6cdf9
+LIGHT PURPLE = #b485f2
+BLUE = #4C44C1
+LIGHT GRAY = #B5B8C1
+DARK GRAY = #8A8F9D
+PURPLE = #6254ED
+DARK ORANGE = #f98f08
+*/
+*{
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+.box-shadow-down{
+  box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+.box-shadow-center{
+  box-shadow: 0px 0px 65px 13px rgba(158,158, 158,0.2);
+}
+input::placeholder{
+  color: #bcc9d1;
+}
+/*START OF CONTAINER CODE*/
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container-fluid{
+  margin: 5%;
+  padding: 0 20px;
+}
+/*END OF CONTAINER CODE*/
+
+/*start of media queries*/
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+
+}
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+
+}
+/*end of media queries*/

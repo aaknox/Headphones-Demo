@@ -1,0 +1,64 @@
+footer{
+  background: #281dc4; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #281dc4 0%, #8454ea 70%, #a59df9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #281dc4 0%,#8454ea 70%,#a59df9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #281dc4 0%,#8454ea 70%,#a59df9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+footer .container{
+
+}
+footer .container h2{
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer .container h2 span{
+font-weight: 700;
+  color: #fea83b;
+}
+footer .container .menu{
+  margin-bottom: 20px;
+}
+footer .container .menu li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+footer .container .menu li a{
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: white;
+}
+footer .container p{
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+footer .container .social-media li{
+  display: inline-block;
+  padding: 0 10px;
+}
+footer .container .social-media li a{
+  font-size: 2rem;
+  color: white;
+  opacity: 0.5;
+}
+
+/*start of media queries*/
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+
+}
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+
+}
+/*end of media queries*/
