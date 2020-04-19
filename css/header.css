@@ -1,0 +1,137 @@
+/*START OF HEADER CODE*/
+header{
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+header a{
+  color: #4C44C1; /*blue*/
+  text-decoration: none;
+}
+header .logo{
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+header .logo img{
+  width: 40px;
+}
+header .menu{
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a{
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+header .header-buttons{
+  display: inline-block;
+  float: right;
+}
+header .header-buttons .blue-btn{
+  background: #4C44C1; /*blue*/
+  color: white;
+  padding: 14px 46px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+header .header-buttons .blue-btn i{
+  margin-left: 15px;
+}
+header .header-buttons .orange-btn{
+  background: #fea83b; /*orange*/
+  color: white;
+  padding: 14px 46px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+/*start of media queries*/
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+  
+}
+
+/**********************/
+@media only screen and (max-width: 923px) {
+  header .header-buttons .blue-btn {
+    padding: 10px 15px;
+    text-align: left;
+    height: 40px;
+    top: -18px;
+    right: 0px;
+    font-size: 0.6rem;
+  }
+  header .header-buttons .blue-btn i {
+    top: 7px;
+    right: 37px;
+    margin-right: 5px;
+  }
+  header .header-buttons .orange-btn {
+    padding: 10px 15px;
+    text-align: center;
+    height: 40px;
+    top: -17px;
+    right: -15px;
+    font-size: 0.7rem;
+  }
+}
+/*****************************/
+
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+  header .logo {
+    width: 5%;
+    float: left;
+  }
+  header .menu {
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 10px;
+  }
+  header .menu a{
+    font-size: 12px;
+  }
+  header .header-buttons{
+    width: 35%;
+  }
+  header .header-buttons .blue-btn {
+    padding: 10px 15px;
+    text-align: left;
+    height: 40px;
+    top: -18px;
+    right: 0px;
+    font-size: 0.6rem;
+  }
+  header .header-buttons .blue-btn i {
+    top: 7px;
+    right: 37px;
+    margin-right: 5px;
+  }
+  header .header-buttons .orange-btn {
+    padding: 10px 15px;
+    text-align: center;
+    height: 40px;
+    top: -17px;
+    right: -15px;
+    font-size: 0.7rem;
+  }
+}
+/*end of media queries*/
+/*END OF HEADER CODE*/
