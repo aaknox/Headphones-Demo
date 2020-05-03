@@ -109,14 +109,14 @@ header .header-buttons .orange-btn{
     font-size: 12px;
   }
   header .header-buttons{
-    width: 35%;
+    width: 40%;
   }
   header .header-buttons .blue-btn {
-    padding: 10px 15px;
+    padding: 7px 7px;
     text-align: left;
     height: 40px;
-    top: -18px;
-    right: 0px;
+    top: -27px;
+    right: -20px;
     font-size: 0.6rem;
   }
   header .header-buttons .blue-btn i {
@@ -125,12 +125,12 @@ header .header-buttons .orange-btn{
     margin-right: 5px;
   }
   header .header-buttons .orange-btn {
-    padding: 10px 15px;
-    text-align: center;
+    padding: 7px 27px;
+    text-align: left;
     height: 40px;
-    top: -17px;
-    right: -15px;
-    font-size: 0.7rem;
+    top: -16px;
+    right: -20px;
+    font-size: 0.6rem;
   }
 }
 /*end of media queries*/
