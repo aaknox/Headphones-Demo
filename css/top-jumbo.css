@@ -225,6 +225,13 @@
   #top-jumbo .left-side .large-title {
     font-size: 220px;
   }
+  #top-jumbo .left-side .info-container {
+    position: relative;
+    bottom: 150px;
+  }
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3rem;
+  }
 }
 /*end of media queries*/
 /*END OF TOP-JUMBO CODE*/
