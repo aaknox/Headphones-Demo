@@ -63,6 +63,7 @@ header .header-buttons .orange-btn{
   
 }
 /*tablet devices*/
+/*iPad - large tablet devices*/
 @media only screen and (max-width: 1024px) {
   header .header-buttons {
     display: inline-block;
@@ -70,12 +71,6 @@ header .header-buttons .orange-btn{
     position: relative;
     top: -4px;
   }
-  /*   header .header-buttons {
-    display: inline-block;
-    float: right;
-    position: relative;
-    top: 30px;
-  } */
 }
 
 /**********************/
@@ -103,7 +98,15 @@ header .header-buttons .orange-btn{
   }
 }
 /*****************************/
-
+/*iPad - small tablet devices*/
+@media only screen and (max-width: 768px) {
+  header .header-buttons {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 30px;
+  }
+}
 /*mobile devices*/
 @media only screen and (max-width: 767px) {
   header .logo {
