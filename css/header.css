@@ -140,11 +140,18 @@ header .header-buttons .orange-btn{
     position: relative;
     right: 25px;
   }
+  header .menu {
+    width: 60%;
+    float: left;
+    position: relative;
+    top: -5px;
+    right: 25px;
+  }
   header .header-buttons {
     width: 48%;
     position: relative;
-    top: 30px;
-}
+    top: -24px;
+  }
 }
 /*end of media queries*/
 /*END OF HEADER CODE*/
