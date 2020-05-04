@@ -63,8 +63,13 @@ header .header-buttons .orange-btn{
 
 }
 /*tablet devices*/
-@media only screen and (max-width: 1023px) {
-  
+@media only screen and (max-width: 1024px) {
+  header .header-buttons {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 30px;
+  }
 }
 
 /**********************/
