@@ -220,5 +220,11 @@
     top: 0px;
   }
 }
+/*Pixel/Older iPhone devices*/
+@media only screen and (max-width: 568px){
+  #top-jumbo .left-side .large-title {
+    font-size: 220px;
+  }
+}
 /*end of media queries*/
 /*END OF TOP-JUMBO CODE*/
